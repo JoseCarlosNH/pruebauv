@@ -1,4 +1,4 @@
-- host: grupo1
+- host: grupo
   remote_user: root
   
   # vars:
