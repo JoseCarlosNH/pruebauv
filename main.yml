@@ -5,3 +5,8 @@
 #  una_variable
   tasks:
    - name: "install"
+     apt: postgresql
+   register: output
+   
+   - debug: var=output
+     
