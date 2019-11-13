@@ -1,5 +1,5 @@
 - hosts: grupo
-  remote_user: root
+  remote_user: jnunezh
   
   # vars:
   #  una_variable: valordevar1
