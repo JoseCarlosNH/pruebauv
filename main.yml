@@ -7,7 +7,7 @@
   tasks:
     - name: "Instalar PostgreSQL"
       
-      yum:
+      apt:
         name: postgresql
       register: salidayum
     
