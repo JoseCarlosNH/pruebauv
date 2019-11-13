@@ -1,0 +1,7 @@
+- host: grupo
+  remote_user: root
+
+# vars:
+#  una_variable
+  tasks:
+   - name: "install"
