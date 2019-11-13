@@ -1,11 +1,15 @@
-- host: grupo
+- host: grupo1
   remote_user: root
-
-# vars:
-#  una_variable
+  
+  # vars:
+  #  una_variable: valordevar1
+  
   tasks:
-   - name: "install"
-     apt: postgresql
-     register: output
-   - debug: var=output
+    - name: "Instalar PostgreSQL"
+      
+      yum:
+        name: postgresql
+      register: salidayum
+    
+    - debug: var=salidayum
    
