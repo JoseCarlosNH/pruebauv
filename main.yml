@@ -6,7 +6,7 @@
   tasks:
    - name: "install"
      apt: postgresql
-   register: output
+  register: output
    
-   - debug: var=output
+  - debug: var=output
      
